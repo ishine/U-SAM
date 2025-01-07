@@ -4,4 +4,6 @@
 ### Official repository
 
 
-#### Detailed usage documentation & checkpoints on the way! Stay Tuned! 🔥
+#### Detailed usage documentation & checkpoints on the way! 
+
+#### Stay Tuned! 🔥
