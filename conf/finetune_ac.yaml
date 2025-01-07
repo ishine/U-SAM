@@ -1,0 +1,28 @@
+
+########################################### data config ######################################################
+dataset_conf:
+  max_len: 10
+  sample_rate: 16000
+  batch_size: 32
+  perturb: false
+  shuffle: true
+  shuffle_size: 2000
+  num_workers: 12
+########################################### data config ######################################################
+
+encoder_conf:
+  encoder_strategy: "lora"  # "frozen", "trainable", "lora"
+
+decoder_conf:
+  decoder_strategy: "lora"  # "frozen", "trainable", "lora"
+
+optim_args:
+  lr: !!float 5e-6
+  name: "adamw_torch"
+  weight_decay: !!float 1e-6
+
+epochs: 30
+warmup_radio: 0.13
+acc_grad: 1
+clip_grad: 1
+

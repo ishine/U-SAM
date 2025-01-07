@@ -1,0 +1,13 @@
+
+########################################### data config ######################################################
+dataset_conf:
+  max_len: 10
+  sample_rate: 16000
+  batch_size: 16 
+########################################### data config ######################################################
+
+encoder_conf:
+  encoder_strategy: "lora"  # "frozen", "trainable", "lora"
+
+decoder_conf:
+  decoder_strategy: "lora"  # "frozen", "trainable", "lora"
