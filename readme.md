@@ -10,6 +10,4 @@
 
 
 
-#### Detailed usage documentation & checkpoints on the way! 
-
-#### Stay Tuned! 🔥
+#### Detailed usage documentation on the way, stay Tuned! 🔥
